@@ -38,7 +38,7 @@ Para la identificación y redacción de los casos de prueba se utilizó la técn
 ## Lenguaje Gherkin
 
 ```gherkin
-Feature: 
+Feature: Gestión de Usuarios: Creación y Consulta de Empleado
 
 Background: Me encuentro en el login y coloco mis credenciales
   Given Estoy en la página de inicio de sesión
@@ -48,9 +48,19 @@ Background: Me encuentro en el login y coloco mis credenciales
     Given Navego a la sección de administración de usuarios
     When Agrego un nuevo usuario ingresando sus datos
     Then Valido que el mensaje de confirmación del usuario creado
-    And Consulto el usuario creado en la lista de empleados 
+    And Consulto el usuario creado en la lista de empleado.
+````
+# Pasos para la Instalación y Ejecución del Proyecto
+### Prerrequisitos
+Tener instalados los siguientes componentes:
 
+- Node.js 
 
+- npm 
 
+### Instala las dependencias del proyecto:
+- npm install
 
-    
+### Para ejecutar las pruebas, utiliza el siguiente comando:
+- npx cucumber-js
+
