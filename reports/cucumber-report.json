@@ -1,0 +1,102 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": ";crear-y-consultar-un-nuevo-empleado",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Crear y consultar un nuevo empleado",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina de inicio de sesion",
+            "match": {
+              "location": "tests\\step-definitions\\test-1.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2887661000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Ingreso mis datos de sesion",
+            "match": {
+              "location": "tests\\step-definitions\\test-1.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1884683300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Navego a la seccion de administración de usuarios",
+            "match": {
+              "location": "tests\\step-definitions\\test-1.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1867647199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Agrego un nuevo usuario ingresando sus datos",
+            "match": {
+              "location": "tests\\step-definitions\\test-1.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2460138899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Valido que el mensaje de confirmacion del usuario creado",
+            "match": {
+              "location": "tests\\step-definitions\\test-1.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1890141899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Consulto el usuario creado en la lista de empleados",
+            "match": {
+              "location": "tests\\step-definitions\\test-1.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1131674800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "",
+    "tags": [],
+    "uri": "tests\\features\\test-1.feature"
+  }
+]
