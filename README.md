@@ -32,28 +32,36 @@ Para la identificación y redacción de los casos de prueba se utilizó la técn
 - **Crear Empleado:** Se verifica que un empleado pueda ser creado correctamente ingresando datos válidos en todos los campos del formulario.
 - **Consultar Empleado:** Se verifica que el empleado recién creado puede ser encontrado en la lista de empleados.
 
-## Lenguaje Gherkin
-- Patron de diseño aplicado POM (Page Object Model)
+## Patron de diseño para la estructura del proyecto:
+- Patron de diseño POM (Page Object Model)
 
 ## Lenguaje Gherkin
 
 Feature: Gestión de Usuarios: Creación y Consulta de Empleado previamente logeado
 
 Background: Me encuentro en el login y coloco mis credenciales
+
   Given Estoy en la página de inicio de sesión
+  
   Then Ingreso mis datos de sesión
   
   Scenario: Crear y consultar un nuevo empleado
+  
     Given Navego a la sección de administración de usuarios
+    
     When Agrego un nuevo usuario ingresando sus datos
+    
     Then Valido que el mensaje de confirmación del usuario creado
+    
     And Consulto el usuario creado en la lista de empleados
 
 # Pasos para la Instalación y Ejecución del Proyecto
 ### Prerrequisitos
 Tener instalados los siguientes componentes:
-Node.js 
-npm 
+
+- Node.js 
+
+- npm 
 
 ### Instala las dependencias del proyecto:
 - npm install
